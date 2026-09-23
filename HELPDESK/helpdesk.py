@@ -2,7 +2,6 @@
 import sys
 from abc import ABC, abstractmethod
 
-
 class agent_name(ABC):
     def __init__(self, name="Mango", issue_type="general request"):
         self.name = name
